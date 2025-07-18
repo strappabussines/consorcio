@@ -1,9 +1,10 @@
-export default function Home() {
+export default function HomePage() {
   return (
-    <main>
-      <h1>Bienvenido a Consorcio</h1>
-      <p>Inicia sesión para acceder al panel de gestión.</p>
-      <a href="/dashboard" style={{ color: "blue" }}>Ir al panel</a>
+    <main className="flex items-center justify-center min-h-screen">
+      <div className="text-center">
+        <h1 className="text-3xl font-bold">Sistema de Consorcios</h1>
+        <p className="mt-4 text-lg">Bienvenido. Ir al <a href="/dashboard" className="text-blue-600 underline">Panel</a>.</p>
+      </div>
     </main>
   );
 }
