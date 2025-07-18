@@ -1,8 +1,8 @@
-// app/dashboard/page.tsx
-export default function Dashboard() {
+export default function DashboardPage() {
   return (
-    <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
+    <main>
       <h2>Panel de Gestión</h2>
       <p>Este es tu espacio privado para gestionar el consorcio.</p>
     </main>
   );
+}
